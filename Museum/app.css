@@ -1,0 +1,60 @@
+ body {
+    background: #FDFCDC;
+    font-family: Bitter;   
+ }
+
+ u {
+     color: #00Afb9;
+ }
+
+ h2 {
+     font-size: 2rem;
+ }
+
+ .lead {
+    font-weight:normal;
+ }
+
+ #icon {
+    margin-bottom: 3;
+ }
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+#mainNavbar .nav-link {
+    color: #f07167;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#mainNavbar .nav-link:hover {
+    color: #FCB573;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#mainNavbar .navbar-brand {
+    font-family: "Miltonian Tattoo";
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+
+#headingGroup span {
+    color: #0081a7;
+}
+#headingGroup h1 {
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 2rem;
+    }
+}
+
+.navbar.scrolled {
+    background-color: rgba(253, 252, 221, 0.7);
+}

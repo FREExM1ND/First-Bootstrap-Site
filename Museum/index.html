@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum of Tattoo and Body Art</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;500;700;900&family=Miltonian+Tattoo&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <nav class="container-fluid">
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light px-2 py-0 fixed-top">
+            <a href="#" class="navbar-brand">TATTOO MUSEUM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">ADMISSION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center py-5">
+            <div id="headingGroup" class="col-lg-6 text-center d-none d-lg-block">
+                <h1>TATTOO<span>/</span>MUSEUM</h1>
+                <h1>TATTOO<span>/</span>MUSEUM</h1>
+                <h1>TATTOO<span>/</span>MUSEUM</h1>
+                <h1>TATTOO<span>/</span>MUSEUM</h1>
+                <h1>TATTOO<span>/</span>MUSEUM</h1>
+                <h1>TATTOO<span>/</span>MUSEUM</h1>
+                <h1>TATTOO<span>/</span>MUSEUM</h1>
+            </div>
+            <div class="col-lg-6"><img class="img-fluid" src="D:\Aaron\My Documents\Code\Museum\images\tattoo sign2.jpg"
+                    alt=""></div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid pb-5" src="D:\Aaron\My Documents\Code\Museum\images\machine.jpg" alt="">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <h2>TATTOO MACHINE</h2>
+                        <div class="pt-1 pb-3">
+                            <img id="icon" class="d-none d-lg-inline"
+                                src="D:\Aaron\My Documents\Code\Museum\images\icon.png" alt="">
+                        </div>
+                        <p class="lead">The first electric tattoo machine was patended by <u>Samuel F. O'Reilly</u> on
+                            December 8, 1891.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <h2>MODERN TATTOO METHOD</h2>
+                        <div class="pt-1 pb-3">
+                            <img id="icon" class="d-none d-lg-inline"
+                                src="D:\Aaron\My Documents\Code\Museum\images\icon.png" alt="">
+                        </div>
+                        <p class="lead">Depending on the tattoo machine speed settings, a tattoo needle will penetrate
+                            your skin between 50 and 3,000 times per minute. The needle is dipped in ink and the needles
+                            pierce the skin, making tiny holes for the ink to flow into. The movement of the ink into
+                            these tiny holes is called <u>capillary action</u>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid m-2" src="D:\Aaron\My Documents\Code\Museum\images\tray.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
